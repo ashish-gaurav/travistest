@@ -1,3 +1,3 @@
 <?php
 
-echo "travi test";
+echo "travi hook test ";
