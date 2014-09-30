@@ -1,7 +1,14 @@
+language: php
+php:
+- 5.5
+services:
+- memcached
+- redis-server
+- elasticsearch
+- rabbitmq
+
 notifications:
   webhooks:
     urls:
       - http://178.62.43.49:9080/integrations/travis/816387cfc944a02a0e270d56e290b453
-    on_success: always
-    on_failure: always
-    on_start: false
+
